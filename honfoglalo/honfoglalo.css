@@ -1,0 +1,92 @@
+﻿body {
+    background-image: url(bg.jpg);
+    background-size: 90% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #333;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 2em;
+}
+
+.tartalom {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #FDE55F;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 3em;
+    border-bottom: 5px double #FDE55F;
+    padding: 10px;
+}
+
+h2, h3 {
+    color: #FDE55F;
+    text-transform: uppercase;
+}
+
+#logo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.kozepre {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.klanok {
+    width: 20%;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: #FDE55F;
+}
+
+a:hover {
+    color: #FDE55F;
+}
+
+.kor {
+    list-style: circle;
+}
+
+.romai {
+    list-style: upper-roman;
+}
+
+.extra-content {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #FDE55F;
+}
+
+.extra-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.extra-content th, .extra-content td {
+    border: 5px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.extra-content th {
+    background-color: #FDE55F;
+}
+
+.extra-content td {
+    background-color: #555;
+}
